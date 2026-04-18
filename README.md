@@ -1,8 +1,27 @@
-# TensorScript Compiler Project
+<div align="center">
+  <h1>TensorScript Compiler</h1>
+  <p>
+    <img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="Python 3.9+">
+    <img src="https://img.shields.io/badge/PyTorch-Dynamic-orange" alt="PyTorch">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+  </p>
+  <p><i>A bespoke Domain-Specific Language (DSL) designed for constructing deep learning neural networks.</i></p>
+</div>
 
 TensorScript is a bespoke Domain-Specific Language (DSL) specifically designed for constructing and training deep learning neural networks elegantly. This repository features a fully operational **7-Phase Custom Python Compiler** that translates TensorScript `.ts` code into fully actionable PyTorch training scripts seamlessly.
 
 In addition to the raw compiler, this project features a built-in Desktop App Interface mimicking Native 90's OS graphical design, letting you edit code and review Intermediate Representation (IR) logs directly on your local system without any web dependencies. 
+
+## 📸 Application Gallery
+
+Here is a look at the TensorScript Desktop IDE in action:
+
+<div align="center">
+  <img src="assets/screenshot-1.png" alt="TensorScript IDE Environment" width="48%" />
+  <img src="assets/screenshot-2.png" alt="TensorScript Compiler Logs" width="48%" />
+</div>
+
+<br>
 
 ### Native Desktop App Styling Overview
 - **Retro Terminal Output Design**: The generated PyTorch IDE panels intentionally use stark `#000000` Black backgrounds matched vividly with Hacker-Green (`#55ff55`) monospaced typographies for a distinct retro-computational aesthetic. This design optimizes contrast against standard built-in MacOS dark-mode text overriding.
